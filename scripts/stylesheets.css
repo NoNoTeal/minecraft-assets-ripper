@@ -1,0 +1,123 @@
+.disabled {
+    background-color: rgb(150, 0, 0);
+    border: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    margin-right: 5px;  
+}
+.disabled:hover{
+    background-color:rgb(125, 0, 0);
+    
+}
+
+.stableButton {
+    background-color: rgb(23, 120, 35); /* Green */
+    border: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    margin-right: 5px;     
+}
+.stableButton:hover{
+    background-color:rgb(38, 211, 59);
+}
+.canaryButton {
+    background-color: rgb(235, 197, 45);
+    border: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px; 
+    margin-right: 5px;    
+}
+.canaryButton:hover{
+    background-color:rgb(177, 160, 33);
+}
+
+.otherReleases {
+    background-color: rgb(33, 179, 50); 
+    color: #ffffff;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;    
+    margin-right: 5px; 
+}
+.otherReleases:hover{
+    background-color:rgb(38, 211, 59);
+}
+
+.divider {
+width:5px;
+height:auto;
+display:inline-block;
+}
+
+
+.jars {
+    background-color: rgb(171, 136, 0); 
+
+    color: #ffffff;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;    
+    margin-right: 5px; 
+}
+.jars:hover{
+    background-color:rgb(125, 100, 0);
+}
+
+.info {
+    background-color: rgb(223, 179, 2); 
+
+    color: #ffffff;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;    
+    margin-right: 5px; 
+}
+.info:hover{
+    background-color:rgb(188, 150, 0);
+}
+
+.off {
+    background-color: rgb(138, 138, 138); 
+    color: #ffffff;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;    
+    margin-right: 5px; 
+}
+.off:hover{
+    background-color:rgb(69, 69, 69);
+}
