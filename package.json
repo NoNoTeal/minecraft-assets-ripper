@@ -1,0 +1,14 @@
+{
+  "name": "mc-assets-grabber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "error.js",
+  "scripts": {
+    "rip": "node rip.js && echo \"Finished ripping\" && exit 0",
+    "cleanup": "node cleanup.js && exit 0",
+    "list":"node list.js && exit 0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
