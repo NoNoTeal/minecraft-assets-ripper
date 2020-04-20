@@ -72,8 +72,8 @@ display:inline-block;
 }
 
 
-.jars {
-    background-color: rgb(171, 136, 0); 
+.readme {
+    background-color: rgb(0, 104, 184); 
 
     color: #ffffff;
     padding: 10px 30px;
@@ -85,8 +85,8 @@ display:inline-block;
     margin-bottom: 5px;    
     margin-right: 5px; 
 }
-.jars:hover{
-    background-color:rgb(125, 100, 0);
+.readme:hover{
+    background-color:rgb(0, 124, 218);
 }
 
 .info {

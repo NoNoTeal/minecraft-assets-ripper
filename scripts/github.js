@@ -77,6 +77,13 @@ xhttp.onreadystatechange = function() {
             tar.className = 'otherReleases'
             tar.href = releases[release].tarball_url
             document.getElementById("releases").appendChild(tar)
+
+            var readme = document.createElement('a')
+            readme.innerText = `README.md\n(Helpful)`
+            readme.id = releases[release].name
+            readme.className = 'readme'
+            readme.href = `https://github.com/NoNoTeal/minecraft-assets-ripper/blob/${releases[release].tag_name}/README.md`
+            document.getElementById("releases").appendChild(readme)
         }
     }
 };
